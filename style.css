@@ -1,0 +1,42 @@
+#tabs {
+  display: flex;
+  gap:25px;
+  font-family:sans-serif;
+}
+
+.links {
+  text-decoration:none;
+  color:gray;
+  padding:5px;
+  cursor:pointer;
+}
+
+.links:hover {
+  color:black;
+}
+
+.links.active {
+  color:black;
+  text-decoration:underline;
+}
+
+.tabContent {
+  display:none;
+  background-color:black;
+  color:white;
+  height:100px;
+  margin-left:50px;
+  margin-right:50px;
+  border-radius:20px;
+  font-family:sans-serif;
+  text-align:center;
+  align-content:center
+}
+
+.tabContent.active {
+  display:block;
+}
+
+.paragraphs {
+  font-family:sans-serif;
+}
